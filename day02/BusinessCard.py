@@ -1,0 +1,11 @@
+name=input("请输入你的姓名：")
+QQ=input("请输入你的QQ号码：")
+phone_number=input("请输入你的手机号码：")
+address=input("请输入你的地址：")
+print("="*50)
+print("姓名：%s"%name)
+print("QQ:%s"%QQ)
+print("手机号：%s"%phone_number)
+print("公司地址：%s"%address)
+print("="*50)
+
