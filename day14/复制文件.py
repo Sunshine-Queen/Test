@@ -1,0 +1,12 @@
+#1.获取要复制的文件名
+old_file_name=input("请输入要复制的文件名(需要后缀):")
+#2.打开要复制的文件
+f_read=open(old_file_name,"r")
+#3.创建一个新的文件
+f_write=open("xxxx.txt","w")
+#4.从Old文件中读取数据，写入到New文件中
+content=f_read.read()
+f_write.write(content)
+#5.关闭两个文件
+f_read.close()
+f_write.close()
