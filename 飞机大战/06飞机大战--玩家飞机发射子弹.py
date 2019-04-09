@@ -5,7 +5,7 @@ from pygame.locals import *
 class HeroPlane(object):
     def __init__(self,screen_temp):
         self.x=210
-        self.y=700
+        self.y=600
         self.screen=screen_temp
         self.image=pygame.image.load("./feiji/hero1.png")
         self.bullet_list=[]#存储发射出去的子弹对象引用
